@@ -17,6 +17,7 @@ namespace Projet.Server.Data
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
+
             optionsBuilder.UseSqlServer(@"Server=DESKTOP-JDGBI4U;Database=ProjetDB");
         }
 
